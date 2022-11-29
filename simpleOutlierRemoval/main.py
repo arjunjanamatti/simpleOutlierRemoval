@@ -18,7 +18,6 @@ class removeOutlier:
         IQR = Q3 - Q1
         self.low_lim = mean - 3 * (IQR)
         self.up_lim = mean + 3 * (IQR)
-        print(self.low_lim, self.up_lim)
 
 
     def get(self):
