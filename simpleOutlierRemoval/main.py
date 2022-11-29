@@ -21,6 +21,6 @@ class removeOutlier:
 
     def get(self):
         self.outlier_treatment_lower_upper()
-        b = np.where(self.series_1 < self.up_lim & self.series_1 > self.low_lim)
+        b = np.where((self.series_1 < self.up_lim) & (self.series_1 > self.low_lim))
         return self.series_1[b]
-    
+
