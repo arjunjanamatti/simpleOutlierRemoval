@@ -1,4 +1,4 @@
-# Calculate co-effecienct of Variance
+# Remove the outliers from Series
 
 ####### Assuming the series is normally distributed
 
